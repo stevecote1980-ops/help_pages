@@ -16,7 +16,7 @@ A post-receive hook will take care of the nikola build and deploy
 
     git remote add live-site help@ssh.pythonanywhere.com:/home/help/barerepo.git
     # you'll probably want to add your public key to help's authorized_keys
-    git push live-site master
+    git pu ex exsh live-site master
 
 
 ## generating the help pages manually
